@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 from random import randint
 
-number = randint(-10, 10)
+number = randint(-100, 100)
 
 if number > 0:
     print(str(number) + " is positive")
