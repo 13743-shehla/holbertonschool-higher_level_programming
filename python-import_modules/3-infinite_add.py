@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 import sys
-
 def infinite_add():
     total = 0
     for arg in sys.argv[1:]:
