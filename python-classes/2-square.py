@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Bu modul dogrulanmamis olcusu olan Square klassÄ± nÄmueyyen edir."""
+"""Bu modul dogrulanmamis olcusu olan Square klassi mueyyen edir."""
 
 
 class Square:
