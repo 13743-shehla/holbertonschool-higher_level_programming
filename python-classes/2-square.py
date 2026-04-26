@@ -3,13 +3,13 @@
 
 
 class Square:
-    """KvadratÄ±temsil eden  klass."""
+    """Kvadrat ±temsil eden  klass."""
 
     def __init__(self, size=0):
-        """KlassÄ±n yei numayyendesini yaradir.
+        """klassin yeni numayyendesini yaradir.
 
         Args:
-            size (int): KvadratÄ± terefinin olcusu (§default 0.
+            size (int): kvadrati± terefinin olcusu(default 0.)
 
         Raises:
             TypeError: eger size integer deyilse.
