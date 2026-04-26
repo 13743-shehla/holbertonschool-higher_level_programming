@@ -1,19 +1,15 @@
 #!/usr/bin/python3
-"""Bu modul dogrulanmamis olcusu olan Square klassi mueyyen edir."""
+"""Module that defines a Square class."""
 
 
 class Square:
-    """kvatrati temsil eden klass."""
+    """Class that represents a square."""
 
     def __init__(self, size=0):
-        """klassin yeni numayyendesini yaradir.
+        """Initializes a Square instance.
 
         Args:
-            size (int): kvadrati± terefinin olcusu(default 0.)
-
-        Raises:
-            TypeError: eger size integer deyilse.
-            ValueError: eger size 0 dan kicikdirse.
+            size (int): The size of the square.
         """
         if not isinstance(size, int):
             raise TypeError("size must be an integer")
