@@ -1,13 +1,14 @@
 #!/usr/bin/python3
-"""Bu modul ölçüsü olan bir Squarass teyin edir."""
+"""Bu modul olcusu olan bir square klassini mueyyen edir."""
+
 
 class Square:
-    """Kvadratı emsil eden class."""
+    """Kvadratıtemsil eden  klass."""
 
     def __init__(self, size):
-        """Kvadratı yeni bir ölç�e  yaradır
-        
+        """Klassın yeninumayendesini yaradir
+
         Args:
-        size (int): Kvadratı terefininölçüsü
-        """
-            self.__size = size  # Private attribute burada teyyin olunur
+        size (int): kvadratin terefinin olcusu
+            """
+        self.__size = size
