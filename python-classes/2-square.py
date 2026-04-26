@@ -3,7 +3,7 @@
 
 
 class Square:
-    """Kvadrat ±temsil eden  klass."""
+    """kvatrati temsil eden klass."""
 
     def __init__(self, size=0):
         """klassin yeni numayyendesini yaradir.
