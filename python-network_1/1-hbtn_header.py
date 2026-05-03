@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+"""
+bu modul verilmis URL den X-Request-Id deyerini oxuyur
+"""
 import urllib.request
 import sys
 
